@@ -1,0 +1,10 @@
+#!/bin/sh
+#xcalib -a -green 1 0 94 -blue 1 0 97
+#xcalib -a -green 1 0 94 -blue 1 0 94
+#xcalib -a -green 1 0 92 -blue 1 0 97
+
+#xcalib -a -red 1 0 98 -green 1 0 97 -blue 1 0.6 100
+xcalib -c
+#xcalib --red-gamma=1 --red-contrast=99 --green-gamma=1 --green-contrast=98 --blue-gamma=1 --blue-brightness=0.1  -a
+xcalib --red-gamma=1 --red-contrast=99.5 --green-gamma=1 --green-contrast=98.5 -a
+echo "Screen tint corrected!"
