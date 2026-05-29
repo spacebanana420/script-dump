@@ -1,0 +1,2 @@
+#!/bin/sh
+qemu-system-x86_64 -enable-kvm -cdrom devuan_excalibur_6.0-20250419_amd64_netinstall.iso -hda devuan.qcow2 -usb -smp cores=5 -vga virtio -m 5G -nic user,model=virtio-net-pci
